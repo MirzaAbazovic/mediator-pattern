@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MediatorPattern.Tower">
+    <Position X="1" Y="4" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAhAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tower.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_aircraftUnderGuidance" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MediatorPattern.Aircraft">
+    <Position X="6.75" Y="2.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAEgAAAgAAEAAAEIIAAAAQAAEAAAAA=</HashCode>
+      <FileName>Aircraft.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_atc" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MediatorPattern.Airbus">
+    <Position X="6" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Airbus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediatorPattern.Boeing">
+    <Position X="2.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Boeing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediatorPattern.Fokker">
+    <Position X="9.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Fokker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MediatorPattern.IAirTrafficControl">
+    <Position X="1" Y="1.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAgAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAirTrafficControl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
